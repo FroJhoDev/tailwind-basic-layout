@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>TailwindCss</title>
+</head>
+<body class="bg-orange-200">
+
+    <header class="bg-gradient-to-r from-orange-400 to-orange-600 w-screen h-24 flex justify-center items-center shoadow">
+        <h1 class="text-4xl text-white font-bold">Meu TailwindCss</h1>
+    </header>
+
+    <nav class="bg-gray-300 px-2 text-gray-600 flex space-x-2">
+        <a class="py-2 px-1 hover:bg-orange-300 hover:text-white hover:font-bold" href="#">Inicio</a>
+        <a class="py-2 px-1 hover:bg-orange-300 hover:text-white hover:font-bold" href="#">Sobre</a>
+        <a class="py-2 px-1 hover:bg-orange-300 hover:text-white hover:font-bold" href="#">Blog</a>
+        <a class="py-2 px-1 hover:bg-orange-300 hover:text-white hover:font-bold" href="#">Colunas</a>
+        <a class="py-2 px-1 hover:bg-orange-300 hover:text-white hover:font-bold" href="#">Contatos</a>
+    </nav>
+
+    <section class="flex">
+        <aside class="flex-grow flex-shrink-0 w-20 bg-gray-200 p-2">
+            <h3 class="text-sm text-gray-600">Outras Indicacoes:</h3>
+            <div class="columns-1 space-y-2">
+                <img class="rounded-sm aspect-video" src="images/filme_01.jfif" alt="Poster Filme Wall-E">
+                <img class="rounded-sm aspect-video" src="images/filme_01.jfif" alt="Poster Filme Wall-E">
+                <img class="rounded-sm aspect-video" src="images/filme_01.jfif" alt="Poster Filme Wall-E">
+            </div>
+        </aside>
+        <main class="basis-9/12 p-2 space-y-2">
+
+            <article class="w-full bg-white p-4 space-y-1 rounded shadow">
+
+                <h2 class="text-lg text-gray-600 font-semibold">Minha Primeira Postagem</h2>
+                <p class="text-sm text-gray-400">Jonathan Willian | 25 de Novembro</p>
+
+                <div class="flex justify-center items-center py-2">
+                    <img class="w-5/6 rounded-sm" src="images/filme_01.jfif" alt="Poster Filme Wall-E">
+                </div>
+
+                <p class="pb-2 text-sm text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates est quisquam necessitatibus ullam omnis quasi adipisci tempore cupiditate iure dolorum, nihil praesentium reprehenderit debitis repellat mollitia tempora architecto explicabo!</p>
+
+                <button class="bg-orange-500 py-2 px-3 text-white rounded hover:shadow-lg hover:shadow-orange-300 transition duration-100 ease-in-out">
+                    Continue Lendo
+                </button>
+
+            </article>
+
+            <article class="w-full bg-white p-4 space-y-1 rounded shadow">
+
+                <h2 class="text-lg text-gray-600 font-semibold">Minha Primeira Postagem</h2>
+                <p class="text-sm text-gray-400">Jonathan Willian | 25 de Novembro</p>
+
+                <div class="flex justify-center items-center py-2">
+                    <img class="w-5/6 rounded-sm" src="images/filme_01.jfif" alt="Poster Filme Wall-E">
+                </div>
+
+                <p class="pb-2 text-sm text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates est quisquam necessitatibus ullam omnis quasi adipisci tempore cupiditate iure dolorum, nihil praesentium reprehenderit debitis repellat mollitia tempora architecto explicabo!</p>
+
+                <button class="bg-orange-500 py-2 px-3 text-white rounded hover:shadow-lg hover:shadow-orange-300">
+                    Continue Lendo
+                </button>
+
+            </article>
+
+        </main>
+    </section>
+
+    <footer class="bg-orange-700 w-screen h-16 text-white flex justify-center items-center">
+        <p class="text-sm">Todos os Direitos Reservados Programe.io | 2023</p>
+    </footer>
+
+</body>
+</html>
